@@ -1,21 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     text-align: center;
     padding: 20px;
     background-image: url('img2.jpg'); /* Replace with your image file */
     background-size: cover;
     background-position: contain;
     background-repeat: no-repeat;
-    color: rgb(193, 45, 45); /* Ensure text is visible on the image */
+    color: rgb(193, 45, 129); /* Ensure text is visible on the image */
 }
 
 .credits {
     font-size: 14px;
-    color: rgb(14, 31, 219);
+    color: rgb(193, 45, 129);
     margin-bottom: 20px;
 }
 
 .event-item {
+    font-family: cursive;
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px 0;
@@ -23,3 +24,13 @@ body {
     background-color: rgba(0, 0, 0, 0.6); /* Adds slight transparency for readability */
     color: white;
 }
+.credits {
+    font-family: cursive; /* Change to any modern font */
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(193, 45, 129);
+    margin-top: 10px;
+    text-transform: lowercase; /* Optional: Makes text all caps */
+    letter-spacing: 1px; /* Optional: Spreads out letters slightly */
+}
+
