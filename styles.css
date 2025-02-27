@@ -2,17 +2,24 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
+    background-image: url('img2.jpg'); /* Replace with your image file */
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    color: rgb(193, 45, 45); /* Ensure text is visible on the image */
 }
 
 .credits {
     font-size: 14px;
-    color: gray;
+    color: rgb(14, 31, 219);
     margin-bottom: 20px;
 }
 
 .event-item {
-    border: 1px solid #c01a1a;
+    border: 1px solid #ccc;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6); /* Adds slight transparency for readability */
+    color: white;
 }
